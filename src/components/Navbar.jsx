@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-white bg-white">
-      <div className="container">
+      <div className="container-fluid">
         {/* Logo a la izquierda */}
         <Link className="navbar-brand" to="/">
           <img src=".\src\assets\logo.jpeg" alt="" width="130" height="80" />
@@ -27,7 +27,7 @@ function Navbar() {
 
         {/* Menú de navegación */}
         <div className={`collapse navbar-collapse${expanded ? ' show' : ''}`}>
-          <ul className="navbar-nav ml-auto">
+          <ul className="navbar-nav  mb-2 mb-lg-0">
             <li className="nav-item">
               <Link className="nav-link" to="/" onClick={toggleNavbar}>
                 Inicio
