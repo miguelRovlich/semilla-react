@@ -1,6 +1,3 @@
-.App {
-  text-align: center;
-}
 
 .App-logo {
   height: 40vmin;
@@ -24,8 +21,12 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+strong {
+  color: #49bf99;
+}
+.btn {
+  background-color: #49bf99;
+  border: #49bf99;
 }
 
 @keyframes App-logo-spin {
