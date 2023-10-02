@@ -39,7 +39,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link  text-center" to="/nosotros" onClick={toggleNavbar}>
+              <Link className="nav-link" to="/nosotros" onClick={toggleNavbar}>
                 Servicios
               </Link>
             </li>
