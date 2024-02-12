@@ -27,6 +27,7 @@ strong {
 .btn {
   background-color: #49bf99;
   border: #49bf99;
+  padding: 10px 20px;
 }
 
 @keyframes App-logo-spin {
